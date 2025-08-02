@@ -1,0 +1,178 @@
+main section.banner article.banner__description .banner__description--title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px;
+}
+
+main section.banner article.banner__description .banner__description--subtitle {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+body {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #1d1d1d;
+  font-family: "Lexend", Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.header img {
+  width: 100px;
+}
+.header i.header__icon {
+  width: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+.header i .header__icon--menu {
+  width: 100%;
+}
+
+main section.banner {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(img/3542463.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position-y: 20%;
+}
+main section.products {
+  width: 80%;
+  margin: 0% auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+main section.products article.products__article {
+  cursor: pointer;
+  text-align: center;
+}
+main section.products article.products__article img.products__article--img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+main section.products article.products__article h3.products__article--name {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+main section.products article.products__article p.products__article--price {
+  font-weight: 300;
+  font-size: 15px;
+}
+main section.cart {
+  width: 500px;
+  background-color: #fff;
+  padding: 25px;
+  box-sizing: border-box;
+  height: 100%;
+  position: fixed;
+  right: -150%;
+  top: 100px;
+  box-shadow: -19px -1px 22px 15px rgba(0, 0, 0, 0.3);
+}
+main section.cart h2.cart__title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+main section.cart div.cart__product {
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+main section.cart div img.cart__product--img {
+  width: 60px;
+}
+main section.cart div p.cart__product--price {
+  font-weight: 500;
+}
+main section.cart div i.cart__product--delete-icon {
+  width: 30px;
+  cursor: pointer;
+}
+main section.cart div img.cart__product--delete-img {
+  width: 100%;
+}
+
+@media (max-width: 820px) { /*tablets*/
+  .header {
+    padding: 15px;
+  }
+  main section.products {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  main section.products article .products__article img .products__article--img {
+    width: 150px;
+  }
+  section.cart {
+    width: 400px;
+    top: 80px;
+  }
+}
+@media (max-width: 480px) { /*celulares*/
+  main section.banner {
+    padding: 30px 0;
+  }
+  main section.banner article.banner__description .banner__description--title {
+    font-size: 18px;
+  }
+  main section.banner article.banner__description .banner__description--subtitle {
+    font-size: 16px;
+  }
+  main section.products {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  main section.products article.products__article img.products__article--img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  main section.products article.products__article p.products__article--price {
+    padding: 0 10px;
+  }
+  main section.cart {
+    width: 100%;
+    box-shadow: none;
+  }
+  main section.cart h2.cart__title {
+    padding: 15px 0;
+  }
+  main section.cart div.cart__product {
+    flex-direction: column;
+    align-items: center;
+  }
+  main section.cart div.cart__product img.cart__product--img {
+    width: 100px;
+  }
+  main section.cart div.cart__product i.cart__product--delete-icon {
+    align-self: center;
+  }
+  main section.cart div.cart__product p.cart__product--name {
+    margin: 0%;
+  }
+}/*# sourceMappingURL=styles2.css.map */
