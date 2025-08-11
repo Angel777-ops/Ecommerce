@@ -60,7 +60,8 @@ body{
    box-sizing: border-box;
 
    img{
-    width: 100px;
+    width: 200px;
+    margin: 0%;
    }
    
    i{
@@ -68,10 +69,21 @@ body{
             width: 50px;
             cursor: pointer;
             display: inline-block;
+             transition: all .3s ease; /*para que la animacion de hover scale se vea mas fluido*/
+
+            &:hover{
+                transform: scale(1.2);/*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
+            }
+            
         }
 
         .header__icon--menu{
             width: $width;
+             transition: all .3s ease; /*para que la animacion de hover scale se vea mas fluido*/
+
+            &:hover{
+                transform: scale(1.2);/*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
+            }
         }
     }
     
