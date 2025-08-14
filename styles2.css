@@ -37,9 +37,19 @@ body {
 .header i.header__icon {
   width: 50px;
   cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.header i.header__icon:hover {
+  transform: scale(1.2);
 }
 .header i .header__icon--menu {
   width: 100%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.header i .header__icon--menu:hover {
+  transform: scale(1.2);
 }
 
 main section.banner {

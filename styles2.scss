@@ -68,13 +68,21 @@ body{
         &.header__icon{
             width: 50px;
             cursor: pointer;
-             
+              display: inline-block;
+             transition: all .3s ease; 
+            &:hover{
+                transform: scale(1.2);
+            }
             
         }
 
         .header__icon--menu{
             width: $width;
-             
+              display: inline-block;
+             transition: all .3s ease; 
+              &:hover{
+                transform: scale(1.2);
+            }
             
         }
     }
