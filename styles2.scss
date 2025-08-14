@@ -68,21 +68,13 @@ body{
         &.header__icon{
             width: 50px;
             cursor: pointer;
-              
-             transition: all .3s ease; 
-            &:hover{
-                transform: scale(1.2);/*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
-            }
+             
             
         }
 
         .header__icon--menu{
             width: $width;
              
-             transition: all .3s ease; 
-              &:hover{
-                transform: scale(1.2);/*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
-            }
             
         }
     }

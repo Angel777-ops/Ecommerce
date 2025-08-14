@@ -1,4 +1,3 @@
-@charset "UTF-8";
 main section.banner article.banner__description .banner__description--title {
   width: 100%;
   font-weight: 600;
@@ -38,17 +37,9 @@ body {
 .header i.header__icon {
   width: 50px;
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-.header i.header__icon:hover {
-  transform: scale(1.2); /*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
 }
 .header i .header__icon--menu {
   width: 100%;
-  transition: all 0.3s ease;
-}
-.header i .header__icon--menu:hover {
-  transform: scale(1.2); /*al poner el cursor en un icono el icono reacciona escalandose a 1.05 de tamaño*/
 }
 
 main section.banner {
