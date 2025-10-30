@@ -94,7 +94,7 @@ main section.cart {
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  right: -150%;
+  right: 0%; /*visibilidad del carrito*/
   top: 100px;
   box-shadow: -19px -1px 22px 15px rgba(0, 0, 0, 0.3);
 }
