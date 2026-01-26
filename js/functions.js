@@ -145,7 +145,7 @@ productos.forEach(prod => {
     div.classList.add('producto-card');
    
     div.innerHTML = `
-        <img class="producto-imagen" src="${prod.imagen}" alt="${prod.nombre}" style="width:200px; height:auto;">
+        <img class="producto-imagen" src="${prod.imagen}" alt="${prod.nombre}" >
         <h3 class="productoNombre">${prod.nombre}</h3>
         <p class="precioProductos">$${prod.precio}</p>
         <button id="addToCart" class="buttonProduct" onclick="agregarAlCarrito(${prod.id})">Agregar al carrito</button>
