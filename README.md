@@ -3,7 +3,7 @@
 This project simulates the homepage of an Adidas store, where its main function is to add products to the cart and remove them from the cart.
 
 ## Technologies
-javascript, css, .
+javascript, css, HTML .
 
 ## contributions
 Angel777-ops
